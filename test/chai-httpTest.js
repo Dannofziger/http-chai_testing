@@ -1,6 +1,6 @@
 'use strict';
 
-require("../httpServer");
+require("../lib/httpServer");
 var chai = require('chai');
 var chaihttp = require("chai-http");
 
