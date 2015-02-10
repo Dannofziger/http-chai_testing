@@ -1,6 +1,6 @@
-var server = require("./httpServer");
-var router = require("./route");
-var handlers = require("./handlers");
+var server = require("./lib/httpServer");
+var router = require("./lib/route");
+var handlers = require("./lib/handlers");
 
 var handle = {};
 handle["/"] = handlers.start;
